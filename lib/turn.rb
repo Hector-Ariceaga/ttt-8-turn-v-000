@@ -27,7 +27,6 @@ def move (board, index, token = "X")
 end
 
 def turn(board,input)
- until input.between?(1,9)
  puts "Please enter 1-9:"
- end
+ 
 end
