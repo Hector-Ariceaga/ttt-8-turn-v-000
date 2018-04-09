@@ -18,4 +18,6 @@ def position_taken (board, index)
   end
 end
 
-def move (board, index)
+def move (board, index, token = "X")
+  board[index] = token
+end
