@@ -34,7 +34,7 @@ def turn(board)
    move(board, index)
  else
    while !(valid_move?(board,index))
-   turn(board)
+   
  end
  end
 end
